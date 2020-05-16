@@ -1,0 +1,29 @@
+{
+  "name": "decova-dotnet-developer",
+  "version": "0.1.7",
+  "keywords": [
+    "dotnet",
+    "typescript",
+    "List",
+    "Dictionary",
+    "delegates",
+    "cleaner"
+  ],
+  "description": "This package provides fundumentals that a .net developer may miss while working with Typescript, whether they are missing functinalities or funcionalities provided in a non-elegant design in javascript. Bad naming, bad design of optional parameters, non-clear effect on the object after running the method are some examples of non-elegant design. Library as well includes delegates like Func<T,TReturn>, Func<T,T,TReturn> ... etc and Action<T>, Action<T,T> ... etc to well describe that passed function. It provides List<T> class that contains IEnumerable<T> methods that .net developer finds it more powerful and has an accurate semantic meaning than those of js Array. It's provided as a proxy to the native js Array.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "decova",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georgemesseha/decova-dotnet-developer"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.5.10"
+  }
+}
